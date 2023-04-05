@@ -1,0 +1,40 @@
+batch_size: 16
+config: ./configs/cvtslt_eval_config.yaml
+dataset: phoenix14
+dataset_info:
+  dataset_root: ./dataset/phoenix2014/phoenix-2014-multisigner
+  dict_path: ./preprocess/phoenix2014/gloss_dict.npy
+  evaluation_dir: ./evaluation/groundtruth_stm
+  evaluation_prefix: phoenix2014-groundtruth
+decode_mode: beam
+device: '1'
+eval_interval: 1
+evaluate_tool: python
+feeder: dataset.dataloader_video_14.BaseFeeder
+feeder_args:
+  datatype: video
+  drop_ratio: 1.0
+  mode: train
+  num_gloss: -1
+ignore_weights: []
+load_checkpoints: null
+load_weights: ./trained_models/cvtslt_model_dev_19.80.pt
+log_interval: 50
+model: cvtslr_model.CVTSLRModel
+model_args:
+  c2d_type: resnet18
+  conv_type: 2
+  num_classes: 1296
+  share_classifier: true
+  use_bn: 1
+  weight_norm: true
+num_worker: 10
+phase: test
+print_log: true
+random_fix: true
+random_seed: 0
+restore_training_weights: null
+save_interval: 5
+test_batch_size: 4
+use_seqAE: VAE
+work_dir: ./out_cvpr/cvtslt_1/

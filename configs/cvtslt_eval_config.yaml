@@ -1,0 +1,27 @@
+feeder: dataset.dataloader_video_14.BaseFeeder
+phase: test
+dataset: phoenix14
+work_dir: ./out_cvpr/cvtslr/
+random_seed: 0
+test_batch_size: 4
+num_worker: 10
+device: 0
+log_interval: 50
+eval_interval: 1
+save_interval: 5
+
+feeder_args:
+  mode: 'train'
+  datatype: 'video'
+  num_gloss: -1
+  drop_ratio: 1.0
+
+model: cvtslr_model.CVTSLRModel
+decode_mode: beam
+model_args:
+  num_classes: 1296
+  c2d_type: resnet18
+  conv_type: 2
+  use_bn: 1
+  share_classifier: True
+  weight_norm: True

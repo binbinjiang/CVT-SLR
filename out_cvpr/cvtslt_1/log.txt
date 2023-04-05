@@ -1,0 +1,4 @@
+[ Tue Mar 21 22:19:06 2023 ] Model:   cvtslr_model.CVTSLRModel.
+[ Tue Mar 21 22:19:06 2023 ] Weights: ./trained_models/cvtslt_model_dev_19.80.pt.
+[ Tue Mar 21 22:21:04 2023 ] Evaluation Done.
+
