@@ -77,6 +77,7 @@ Evaluation results: test 20.17%, dev 19.87%
 **->** [Option 2] Using VAE based configuration:
 
 `python run_demo.py --work-dir ./out_cvpr/cvtslt_1/ --config ./configs/cvtslt_eval_config.yaml --device 1 --load-weights ./trained_models/cvtslt_model_dev_19.80.pt --use_seqAE VAE`
+
 Evaluation results: test 20.06%, dev 19.80%
 
 
