@@ -82,10 +82,31 @@ Evaluation results: test 20.06%, dev 19.80%
 
 
 The updated evaluation results (WER %) and download links:
-| Models                | Dev | Test |                       Trained Checkpoints                       |
-| :---------------------- | :--------: | :---------: | :----------------------------------------------------------: |
-| CVT-SLR w/ AE     |    19.87    |    20.17     | [[Baidu]](https://pan.baidu.com/s/1AE8L9M3u080L_T5G6Aqsvg?pwd=k42q) (pwd/提取码: k42q)|
-| CVT-SLR w/ VAE     |    19.80    |    20.06     | [[Baidu]](https://pan.baidu.com/s/1vF2G07wjX6f-gpxVZgPEOg?pwd=0kga) (pwd/提取码: 0kga)|
+
+| Group                | Models                | Dev | Test |                       Trained Checkpoints                       |
+|:---------------------- | :---------------------- | :--------: | :---------: | :----------------------------------------------------------: |
+|Group 1 (single-cue)  | SubUNet     |    40.8    |    40.7     | -|
+|  | Staged-Opt     |    39.4    |    38.7     | -|
+|  | Align-iOpt     |    37.1    |    36.7     | -|
+|  | DPD+TEM     |    35.6    |    34.5     | -|
+|  | Re-Sign     |    27.1    |    26.8     | -|
+|  | SFL     |    26.2    |    26.8     | -|
+|  | DNF     |    23.8    |    24.4     | -|
+|  | FCN    |    23.7    |   23.9     | -|
+|  | VAC    |    21.2    |   22.3     | -|
+|  | CMA    |    21.3    |   21.9     | -|
+|  | SFL    |    24.9    |   25.3     | -|
+|  | VL-SLT    |    21.9    |   22.5     | -|
+|  | SMKD    |    20.8    |   21.0     | -|
+|Group 2 (multi-cue)  | DNF     |    23.1    |    22.9     | -|
+|  | STMC     |    21.1    |    20.7     | -|
+|  | C2SLR     |    20.5    |    20.4     | -|
+|Group 3 (Ours) | CVT-SLR w/ AE     |    19.87    |    20.17     | [[Baidu]](https://pan.baidu.com/s/1AE8L9M3u080L_T5G6Aqsvg?pwd=k42q) (pwd/提取码: k42q)|
+| | CVT-SLR w/ VAE     |    19.80    |    20.06     | [[Baidu]](https://pan.baidu.com/s/1vF2G07wjX6f-gpxVZgPEOg?pwd=0kga) (pwd/提取码: 0kga)|
+
+
+**NB:** please refer to our paper for more details.
+
 
 ## Citation
 
