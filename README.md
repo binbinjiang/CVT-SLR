@@ -101,8 +101,8 @@ The updated evaluation results (WER %) and download links:
 |Group 2 (multi-cue)  | DNF     |    23.1    |    22.9     | -|
 |  | STMC     |    21.1    |    20.7     | -|
 |  | C2SLR     |    20.5    |    20.4     | -|
-|Group 3 (Ours) | CVT-SLR w/ AE     |    19.87    |    20.17     | [[Baidu]](https://pan.baidu.com/s/1AE8L9M3u080L_T5G6Aqsvg?pwd=k42q) (pwd/提取码: k42q)|
-| | CVT-SLR w/ VAE     |    19.80    |    20.06     | [[Baidu]](https://pan.baidu.com/s/1vF2G07wjX6f-gpxVZgPEOg?pwd=0kga) (pwd/提取码: 0kga)|
+|Group 3 (Ours) | CVT-SLR w/ AE     |    19.87    |    20.17     | [[Baidu]](https://pan.baidu.com/s/1AE8L9M3u080L_T5G6Aqsvg?pwd=k42q) (pwd/提取码: k42q) or [[GoogleDrive]](https://drive.google.com/file/d/1ErXIfxCgSbrKeGln3_xezBWT4C-3jS8A/view?usp=sharing) |
+| | CVT-SLR w/ VAE     |    19.80    |    20.06     | [[Baidu]](https://pan.baidu.com/s/1vF2G07wjX6f-gpxVZgPEOg?pwd=0kga) (pwd/提取码: 0kga) or [[GoogleDrive]](https://drive.google.com/file/d/1_2-zBi3dop8JIJYrl_sufUWBDR7DAawl/view?usp=sharing)|
 
 
 **NB:** please refer to our paper for more details.
