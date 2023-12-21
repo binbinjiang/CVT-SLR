@@ -1,12 +1,12 @@
 # CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment
 
-This is the official code of the CVPR 2023 paper (**Highlight presentation, acceptance rate: 2.5% of submitted papers**) *CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment* [paper CVPR-version **TODO**] [[paper arxiv]](https://arxiv.org/abs/2303.05725).
+This is the official code of the CVPR 2023 paper (**Highlight presentation, acceptance rate: 2.5% of submitted papers**) *CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment* [[CVPR Version]](https://openaccess.thecvf.com/content/CVPR2023/html/Zheng_CVT-SLR_Contrastive_Visual-Textual_Transformation_for_Sign_Language_Recognition_With_Variational_CVPR_2023_paper.html) [[arXiv Version]](https://arxiv.org/abs/2303.05725).
 
 
 ## !!! See Also
--  [Awesome AI Sign Language Papers](https://github.com/binbinjiang/SL_Papers). 
+-  [**Awesome AI Sign Language Papers**](https://github.com/binbinjiang/SL_Papers). 
 If you are new or interested in AI sign language field, we **highly recommend** you browse this [repository](https://github.com/binbinjiang/SL_Papers). We have collected papers on AI Sign Language (SL) comprehensively. For easy searching and viewing, we have categorized them according to different criteria (by time, type of research, institution, etc.). Feel free to add contents and submit updates.
-- Extensiton Work: The proposed novel cross-modal transformation in this work has been successfully applied to a protein design (an impotant cross-modal protein task in AI life) framework, which achieves an excellent performance. (*Around the corner* **TODO**) 
+- **Extensiton Work**: The proposed novel cross-modal transformation in this work has been successfully applied to a protein design (an impotant cross-modal protein task in AI life) framework, which achieves an excellent performance. (e.g., [MMDesign: Multi-Modality Transfer Learning for Generative Protein Design](https://arxiv.org/pdf/2312.06297.pdf)) 
 <!-- Please refer to this [repo]() and [paper]() -->
 - Stay tuned for more of our work related to this work!
 
@@ -20,7 +20,7 @@ If you are new or interested in AI sign language field, we **highly recommend** 
 
 <img src=".\imgs\framework.jpg" alt="framework" style="zoom: 80%;" />
 
-For more details, please refer to our [paper](https://arxiv.org/abs/2303.05725).
+For more details, please refer to our [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_CVT-SLR_Contrastive_Visual-Textual_Transformation_for_Sign_Language_Recognition_With_Variational_CVPR_2023_paper.pdf).
 
 ## Prerequisites
 ### Dependencies
@@ -105,18 +105,28 @@ The updated evaluation results (WER %) and download links:
 | | CVT-SLR w/ VAE     |    19.80    |    20.06     | [[Baidu]](https://pan.baidu.com/s/1vF2G07wjX6f-gpxVZgPEOg?pwd=0kga) (pwd/提取码: 0kga) or [[GoogleDrive]](https://drive.google.com/file/d/1_2-zBi3dop8JIJYrl_sufUWBDR7DAawl/view?usp=sharing)|
 
 
-**NB:** please refer to our paper for more details.
+**NB:** please refer to our [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_CVT-SLR_Contrastive_Visual-Textual_Transformation_for_Sign_Language_Recognition_With_Variational_CVPR_2023_paper.pdf) for more details.
 
 
 ## Citation
 
-If you find this repository useful please consider citing:
+If you find this repository useful, please consider citing:
 
 ```
+@inproceedings{zheng2023cvt,
+  title={Cvt-slr: Contrastive visual-textual transformation for sign language recognition with variational alignment},
+  author={Zheng, Jiangbin and Wang, Yile and Tan, Cheng and Li, Siyuan and Wang, Ge and Xia, Jun and Chen, Yidong and Li, Stan Z},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={23141--23150},
+  year={2023}
+}
+```
+
+<!--
 @article{zheng2023cvt,
   title={CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment},
   author={Zheng, Jiangbin and Wang, Yile and Tan, Cheng and Li, Siyuan and Wang, Ge and Xia, Jun and Chen, Yidong and Li, Stan Z},
   journal={arXiv preprint arXiv:2303.05725},
   year={2023}
 }
-```
+-->
