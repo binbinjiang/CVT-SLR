@@ -1,6 +1,6 @@
 # CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment
 
-This is the official code of the CVPR 2023 paper (**Highlight presentation, acceptance rate: 2.5% of submitted papers**) *CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment* [[CVPR Version]](https://openaccess.thecvf.com/content/CVPR2023/html/Zheng_CVT-SLR_Contrastive_Visual-Textual_Transformation_for_Sign_Language_Recognition_With_Variational_CVPR_2023_paper.html) [[arXiv Version]](https://arxiv.org/abs/2303.05725).
+This is the official code of the CVPR 2023 paper (`Highlight presentation, acceptance rate: 2.5% of submitted papers`) *CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment* [[CVPR Version]](https://openaccess.thecvf.com/content/CVPR2023/html/Zheng_CVT-SLR_Contrastive_Visual-Textual_Transformation_for_Sign_Language_Recognition_With_Variational_CVPR_2023_paper.html) [[arXiv Version]](https://arxiv.org/abs/2303.05725).
 
 
 ## !!! See Also
@@ -107,6 +107,24 @@ The updated evaluation results (WER %) and download links:
 
 **NB:** please refer to our [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_CVT-SLR_Contrastive_Visual-Textual_Transformation_for_Sign_Language_Recognition_With_Variational_CVPR_2023_paper.pdf) for more details.
 
+## Visualization
+- Saliency Maps
+<img src=".\imgs\saliency_map_case.png" alt="framework" style="zoom: 80%;" />
+We visualize the key parts of the sign video frames in focus by using Grad-CAM. To implement this function, you can use the open python tool as:
+```
+import pytorch_grad_cam
+```
+
+- Cross-modal Alignment Matrices
+<img src=".\imgs\alignment_matrices_case.png" alt="framework" style="zoom: 50%;" />
+To generate the cross alignment matrices, here are some hints as:
+
+```
+a = ret["conv_logits"].squeeze(1)
+b = ret["sequence_logits"].squeeze(1)
+T = 1
+simi_matric = softmax(T*(a @ b.T))
+```
 
 ## Citation
 
