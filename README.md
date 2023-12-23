@@ -116,7 +116,7 @@ import pytorch_grad_cam
 ```
 
 - Cross-modal Alignment Matrices
-<img src=".\imgs\alignment_matrices_case.png" alt="framework" style="zoom: 50%;" />
+<img src=".\imgs\alignment_matrices_case.png" alt="framework" style="zoom: 30%;" />
 To generate the cross alignment matrices, here are some hints as:
 
 ```
